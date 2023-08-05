@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filters Project</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!---Products-->
+    <section class="products">
+      <!--Filters-->
+      <div class="filters-container">
+        <!--Search-->
+        <form class="input-form">
+          <input type="text" class="search-input" placeholder="search..." />
+        </form>
+        <!--Categories-->
+        <h5>Company</h5>
+        <article class="companies">
+          <button class="company-btn">All</button>
+          <button class="company-btn">Ikea</button>
+          <button class="company-btn">Marcos</button>
+        </article>
+      </div>
+      <!--Products-->
+      <div class="products-container">
+        <!--Single product-->
+        <article class="products">
+          <img
+            src="https://course-api.com/images/store/product-1.jpeg"
+            class="product-img img"
+          />
+          <footer>
+            <h5 class="product-name">Hi</h5>
+            <span class="product-price">£999</span>
+          </footer>
+        </article>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
